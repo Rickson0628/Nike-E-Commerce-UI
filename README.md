@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nike E-Commerce UI
 
-## Getting Started
+A responsive Nike-inspired e-commerce interface built with **Next.js, React, and Tailwind CSS**.
 
-First, run the development server:
+The project explores responsive product layouts, reusable React components, client-side cart management, product selection, and light/dark themes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[View Live Project](https://tailwind-project-lime-pi.vercel.app/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Overview
 
-## Learn More
+This project was created as a front-end exercise focused on building a modern product shopping experience using reusable React components and utility-first styling.
 
-To learn more about Next.js, take a look at the following resources:
+Users can browse different Nike shoe concepts, select a size and quantity, add products to their cart, switch between products, and view the interface across desktop and mobile layouts.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- Responsive desktop and mobile layouts
+- Interactive product selection
+- Size and quantity selection
+- Add-to-cart functionality
+- Duplicate cart item handling
+- Slide-out shopping cart
+- Remove products from the cart
+- New Arrivals product section
+- Responsive mobile navigation
+- Light and dark themes
+- Reusable React components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+- **JavaScript**
+- **React Icons**
+- **SVG assets**
+
+---
+
+## Project Structure
+
+```text
+app/
+├── globals.css
+├── layout.js
+└── page.js
+
+components/
+├── Card.jsx
+├── Cart.jsx
+├── CartItem.jsx
+├── Nav.jsx
+├── NewArrival.jsx
+├── Select.jsx
+├── ShoeDetail.jsx
+├── SideBar.jsx
+└── constant.js
+
+public/
+└── assets/
+    ├── nike-logo.svg
+    └── product images
